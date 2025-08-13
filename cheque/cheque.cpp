@@ -142,6 +142,8 @@ class ChequePlus:public Cheque
 
  int main()
  {
+     int a;
+     cin>>a;
     Cheque *chptr;
     chptr=new ChequeBase("xiao wang",123456789,100);
     chptr ->Deposit(200);
