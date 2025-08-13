@@ -142,6 +142,7 @@ class ChequePlus:public Cheque
 
  int main()
  {
+    cout<<"branch1"<<endl;
     Cheque *chptr;
     chptr=new ChequeBase("xiao wang",123456789,100);
     chptr ->Deposit(200);
